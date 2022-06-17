@@ -269,7 +269,7 @@ session_start(); //start temp session until logout/browser closed
 																<div class="col-xs-12 col-sm-9 col-md-12 col-lg-9">
 																	<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
 																	<div class="bottom-part">
-																		<div class="cost"><i class="fa fa-check"></i> Min $ 10,00</div>
+																		<div class="cost"><i class="fa fa-check"></i> Min  &#x20B9 10,00</div>
 																		<div class="mins"><i class="fa fa-motorcycle"></i> 30 min</div>
 																		<div class="ratings"> <span>
 																				<i class="fa fa-star"></i>
