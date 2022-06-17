@@ -310,7 +310,7 @@ session_start(); //start temp session until logout/browser closed
                                 <figure> <img src="images/app.png" alt="Right Image" class="img-fluid"> </figure>
                             </div>
                             <div class="col-xs-12 col-sm-7 left-text">
-                                <h3>The Best Food Delivery App</h3>
+                                <h3>The Best Food Delivery App<h5>coming soon</h5></h3>
                                 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App.</p>
                                 <div class="social-btns">
                                     <a href="#" class="app-btn apple-button clearfix">
