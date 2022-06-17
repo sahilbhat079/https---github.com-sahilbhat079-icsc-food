@@ -156,16 +156,16 @@ hr {
 
 .custom-control-input:active~.custom-control-indicator {
     color: #fff;
-    background-color: #f30
+    background-color: #f30;
 }
 
 .custom-control-input:disabled~.custom-control-indicator {
     cursor: not-allowed;
-    background-color: #eee
+    background-color: #eee;
 }
 
 .custom-control-input:disabled~.custom-control-description {
-    color: #76767
+    color: #76767;
 }
 
 .custom-control {
@@ -284,19 +284,19 @@ hr {
 }
 
 .b-l {
-    border-left: 1px solid #edeed
+    border-left: 1px solid #edeed;
 }
 
 .b-r {
-    border-left: 1px solid #edeed
+    border-left: 1px solid #edeed;
 }
 
 .b-t {
-    border-top: 1px solid #edeed
+    border-top: 1px solid #edeed;
 }
 
 .b-b {
-    border-bottom: 1px solid #edeed
+    border-bottom: 1px solid #edeed;
 }
 
 .b-b-0 {
@@ -836,7 +836,7 @@ hr {
 }
 
 @media (max-width: 543px) {
-    ...
+
 }
 
 @media (min-width: 544px) and (max-width: 767px) {
@@ -912,7 +912,7 @@ hr {
 }
 
 .cart-addon .food-item:last-of-type {
-    border-bottom: none
+    border-bottom: none;
 }
 
 .cart-addon .food-item .item-img img {
