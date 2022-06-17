@@ -18,7 +18,7 @@ include_once 'product-action.php'; //including controller
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Starter Template for Bootstrap</title>
+    <title>icsc food</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
