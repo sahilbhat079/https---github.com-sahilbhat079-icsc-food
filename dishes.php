@@ -35,7 +35,7 @@ include_once 'product-action.php'; //including controller
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/icsc.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                        <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -317,7 +317,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                     <figure> <img src="images/app.png" alt="Right Image"> </figure>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 left-text">
-                                    <h3>The Best Food Delivery App</h3>
+                                    <h3>The Best Food Delivery App<i><h5>coming soon</h5></i></h3>
                                     <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App.</p>
                                     <div class="social-btns">
                                         <a href="#" class="app-btn apple-button clearfix">
@@ -341,7 +341,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                     <!-- top footer statrs -->
                     <div class="row top-footer">
                         <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                            <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
+                            <a href="#"> <img src="images/icsc.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
                         <div class="col-xs-12 col-sm-2 about color-gray">
                             <h5>About Us</h5>
                             <ul>
