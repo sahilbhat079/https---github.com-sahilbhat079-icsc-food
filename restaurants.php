@@ -25,8 +25,8 @@ session_start();
 <body>
            <!--header starts-->
         <header id="header" class="header-scroll top-header headrom">
-            <!-- .navbar -->
-            <nav class="navbar navbar-dark">
+           <!-- .navbar -->
+           <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
                     <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/icsc.png" alt=""> </a>
