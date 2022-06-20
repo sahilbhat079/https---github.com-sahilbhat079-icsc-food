@@ -19,8 +19,8 @@ else
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Ela - Bootstrap Admin Dashboard Template</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icsc.png">
+    <title>icsc food admin</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -47,12 +47,12 @@ else
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <!-- Logo icon -->
-                        <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
+                        <b><img src="images/icsc.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
+                        <span><img src="images/icsc.png" alt="homepage" class="dark-logo" /></span>
                     </a>
                 </div>
                 <!-- End Logo -->
