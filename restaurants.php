@@ -240,17 +240,17 @@ session_start();
                         <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                             <h5>Popular locations</h5>
                             <ul>
-                                <li><a href="#">Sarajevo</a> </li>
-                                <li><a href="#">Split</a> </li>
-                                <li><a href="#">Tuzla</a> </li>
-                                <li><a href="#">Sibenik</a> </li>
-                                <li><a href="#">Zagreb</a> </li>
-                                <li><a href="#">Brcko</a> </li>
-                                <li><a href="#">Beograd</a> </li>
-                                <li><a href="#">New York</a> </li>
-                                <li><a href="#">Gradacac</a> </li>
-                                <li><a href="#">Los Angeles</a> </li>
-                            </ul>
+                            <li><a href="#">rajbag</a> </li>
+                            <li><a href="#">khanyar</a> </li>
+                            <li><a href="#">dalgate</a> </li>
+                            <li><a href="#">nigeen</a> </li>
+                            <li><a href="#">parray pora</a> </li>
+                            <li><a href="#">hawal</a> </li>
+                            <li><a href="#">gojwara</a> </li>
+                            <li><a href="#">nowhata</a> </li>
+                            <li><a href="#">hazratbal</a> </li>
+                            <li><a href="#">lal chowk </a> </li>
+                        </ul>
                         </div>
                     </div>
                     <!-- top footer ends -->
