@@ -206,13 +206,13 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                      <!-- WHY? -->
                      <div class="col-md-4">
                         <h4>Registration is fast, easy, and free.</h4>
-                        <p>Once you"re registered, you can:</p>
+                        <p>FAQ:</p>
                         <hr>
                         <img src="http://placehold.it/400x300" alt="" class="img-fluid">
                         <p></p>
                         <div class="panel">
                            <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
+                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="ti-info-alt" aria-hidden="true"></i>How to register restaurant on icsc food?</a></h4>
                            </div>
                            <div class="panel-collapse collapse" id="faq1" aria-expanded="false" role="article" style="height: 0px;">
                               <div class="panel-body">  </div>
@@ -221,7 +221,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                         <!-- end:panel -->
                         <div class="panel">
                            <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq2" aria-expanded="true"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
+                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq2" aria-expanded="true"><i class="ti-info-alt" aria-hidden="true"></i>how long it takes to deliver ?</a></h4>
                            </div>
                            <div class="panel-collapse collapse" id="faq2" aria-expanded="true" role="article">
                               <div class="panel-body">  </div>
@@ -229,7 +229,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                         </div>
                         <!-- end:Panel -->
                         <h4 class="m-t-20">Contact Customer Support</h4>
-                        <p> If you"re looking for more help or have a question to ask, please </p>
+                        <p> If you"re looking for more help or do you want to regester as a restaurant  </p>
                         <p> <a href="contact.html" class="btn theme-btn m-t-15">contact us</a> </p>
                      </div>
                      <!-- /WHY? -->

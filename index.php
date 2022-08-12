@@ -338,10 +338,8 @@ session_start(); //start temp session until logout/browser closed
                     <div class="col-xs-12 col-sm-2 about color-gray">
                         <h5>About Us</h5>
                         <ul>
-                            <li><a href="#">About us</a> </li>
-                            <li><a href="#">History</a> </li>
-                            <li><a href="#">Our Team</a> </li>
-                            <li><a href="#">We are hiring</a> </li>
+                            <li><a href="aboutus.php">Our Team</a> </li>
+                           
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">
