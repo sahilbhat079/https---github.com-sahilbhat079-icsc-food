@@ -65,7 +65,7 @@ session_start(); //start temp session until logout/browser closed
         <section class="hero bg-image" data-image-src="images/img/main.jpeg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
-                    <h1>Order Delivery & Take-Out </h1>
+                    <h1>Order Delivery & Take-away</h1>
                     <h5 class="font-white space-xs">Find restaurants,cloud kitchens specials and coupons for free</h5>
                     <div class="banner-form">
                         <form class="form-inline">
@@ -122,7 +122,7 @@ session_start(); //start temp session until logout/browser closed
 				
 						<?php 
 						// fetch records from database to display popular first 3 dishes from table
-						$query_res= mysqli_query($db,"select * from dishes LIMIT 3"); 
+						$query_res= mysqli_query($db,"select * from dishes LIMIT 6"); 
 									      while($r=mysqli_fetch_array($query_res))
 										  {
 													
