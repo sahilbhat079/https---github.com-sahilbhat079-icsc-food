@@ -52,7 +52,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 	else{
        
 	 //inserting values into db
-	$mql = "INSERT INTO users(username,f_name,l_name,email,phone,password,address) VALUES('".$_POST['username']."','".$_POST['firstname']."','".$_POST['lastname']."','".$_POST['email']."','".$_POST['phone']."','".md5($_POST['password'])."','".$_POST['address']."')";
+	$mql = "INSERT INTO users(username,f_name,l_name,email,phone,password,address) VALUES('".$_POST['username']."','".$_POST['firstname']."','".$_POST['lastname']."','".$_POST['email']."','".$_POST['phone']."','".($_POST['password'])."','".$_POST['address']."')";
 	mysqli_query($db, $mql);
 		$success = "Account Created successfully! <p>You will be redirected in <span id='counter'>5</span> second(s).</p>
 														<script type='text/javascript'>
@@ -87,7 +87,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Starter Template for Bootstrap</title>
+    <title>registration</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -103,7 +103,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
             <nav class="navbar navbar-dark">
                <div class="container">
                   <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                  <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
+                  <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/icsc.png" alt=""> </a>
                   <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                      <ul class="nav navbar-nav">
 							<li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -206,30 +206,30 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                      <!-- WHY? -->
                      <div class="col-md-4">
                         <h4>Registration is fast, easy, and free.</h4>
-                        <p>Once you"re registered, you can:</p>
+                        <p>FAQ:</p>
                         <hr>
                         <img src="http://placehold.it/400x300" alt="" class="img-fluid">
                         <p></p>
                         <div class="panel">
                            <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
+                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="ti-info-alt" aria-hidden="true"></i>How to register restaurant on icsc food?</a></h4>
                            </div>
                            <div class="panel-collapse collapse" id="faq1" aria-expanded="false" role="article" style="height: 0px;">
-                              <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum ut erat a ultricies. Phasellus non auctor nisi, id aliquet lectus. Vestibulum libero eros, aliquet at tempus ut, scelerisque sit amet nunc. Vivamus id porta neque, in pulvinar ipsum. Vestibulum sit amet quam sem. Pellentesque accumsan consequat venenatis. Pellentesque sit amet justo dictum, interdum odio non, dictum nisi. Fusce sit amet turpis eget nibh elementum sagittis. Nunc consequat lacinia purus, in consequat neque consequat id. </div>
+                              <div class="panel-body">  </div>
                            </div>
                         </div>
                         <!-- end:panel -->
                         <div class="panel">
                            <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq2" aria-expanded="true"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
+                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq2" aria-expanded="true"><i class="ti-info-alt" aria-hidden="true"></i>how long it takes to deliver ?</a></h4>
                            </div>
                            <div class="panel-collapse collapse" id="faq2" aria-expanded="true" role="article">
-                              <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum ut erat a ultricies. Phasellus non auctor nisi, id aliquet lectus. Vestibulum libero eros, aliquet at tempus ut, scelerisque sit amet nunc. Vivamus id porta neque, in pulvinar ipsum. Vestibulum sit amet quam sem. Pellentesque accumsan consequat venenatis. Pellentesque sit amet justo dictum, interdum odio non, dictum nisi. Fusce sit amet turpis eget nibh elementum sagittis. Nunc consequat lacinia purus, in consequat neque consequat id. </div>
+                              <div class="panel-body">  </div>
                            </div>
                         </div>
                         <!-- end:Panel -->
                         <h4 class="m-t-20">Contact Customer Support</h4>
-                        <p> If you"re looking for more help or have a question to ask, please </p>
+                        <p> If you"re looking for more help or do you want to regester as a restaurant  </p>
                         <p> <a href="contact.html" class="btn theme-btn m-t-15">contact us</a> </p>
                      </div>
                      <!-- /WHY? -->
@@ -269,7 +269,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                   <!-- top footer statrs -->
                   <div class="row top-footer">
                      <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> 
+                        <a href="#"> <img src="images/icsc.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> 
                      </div>
                      <div class="col-xs-12 col-sm-2 about color-gray">
                         <h5>About Us</h5>
@@ -303,16 +303,16 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                      <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                         <h5>Popular locations</h5>
                         <ul>
-                           <li><a href="#">Sarajevo</a> </li>
-                           <li><a href="#">Split</a> </li>
-                           <li><a href="#">Tuzla</a> </li>
-                           <li><a href="#">Sibenik</a> </li>
-                           <li><a href="#">Zagreb</a> </li>
-                           <li><a href="#">Brcko</a> </li>
-                           <li><a href="#">Beograd</a> </li>
-                           <li><a href="#">New York</a> </li>
-                           <li><a href="#">Gradacac</a> </li>
-                           <li><a href="#">Los Angeles</a> </li>
+                        <li><a href="#">rajbag</a> </li>
+                            <li><a href="#">khanyar</a> </li>
+                            <li><a href="#">dalgate</a> </li>
+                            <li><a href="#">nigeen</a> </li>
+                            <li><a href="#">parray pora</a> </li>
+                            <li><a href="#">hawal</a> </li>
+                            <li><a href="#">gojwara</a> </li>
+                            <li><a href="#">nowhata</a> </li>
+                            <li><a href="#">hazratbal</a> </li>
+                            <li><a href="#">lal chowk </a> </li>
                         </ul>
                      </div>
                   </div>

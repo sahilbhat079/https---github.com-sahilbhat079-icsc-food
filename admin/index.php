@@ -82,7 +82,7 @@ if(isset($_POST['submit1'] ))
                       else                                 //if code is valid 
 					     {
 	
-								$mql = "INSERT INTO admin (username,password,email,code) VALUES ('".$_POST['cr_user']."','".md5($_POST['cr_pass'])."','".$_POST['cr_email']."','".$_POST['code']."')";
+								$mql = "INSERT INTO admin (username,password,email,code) VALUES ('".$_POST['cr_user']."','".($_POST['cr_pass'])."','".$_POST['cr_email']."','".$_POST['code']."')";
 								mysqli_query($db, $mql);
 									$success = "Admin Added successfully!";
 						 }

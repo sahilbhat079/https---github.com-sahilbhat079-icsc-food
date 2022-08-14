@@ -14,7 +14,7 @@ session_start(); //start temp session until logout/browser closed
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Starter Template for Bootstrap</title>
+    <title>icsc food</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@ session_start(); //start temp session until logout/browser closed
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/icsc.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -65,7 +65,7 @@ session_start(); //start temp session until logout/browser closed
         <section class="hero bg-image" data-image-src="images/img/main.jpeg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
-                    <h1>Order Delivery & Take-Out </h1>
+                    <h1>Order Delivery & Take-away</h1>
                     <h5 class="font-white space-xs">Find restaurants,cloud kitchens specials and coupons for free</h5>
                     <div class="banner-form">
                         <form class="form-inline">
@@ -113,7 +113,7 @@ session_start(); //start temp session until logout/browser closed
         <section class="popular">
             <div class="container">
                 <div class="title text-xs-center m-b-30">
-                    <h2>Popular Dishes of the Month</h2>
+                    <h2>Popular Dishes of the weak</h2>
                     <p class="lead">The easiest way to your favourite food</p>
                 </div>
                 <div class="row">
@@ -122,7 +122,7 @@ session_start(); //start temp session until logout/browser closed
 				
 						<?php 
 						// fetch records from database to display popular first 3 dishes from table
-						$query_res= mysqli_query($db,"select * from dishes LIMIT 3"); 
+						$query_res= mysqli_query($db,"select * from dishes LIMIT 6"); 
 									      while($r=mysqli_fetch_array($query_res))
 										  {
 													
@@ -136,7 +136,7 @@ session_start(); //start temp session until logout/browser closed
 															<div class="content">
 																<h5><a href="dishes.php?res_id='.$r['rs_id'].'">'.$r['title'].'</a></h5>
 																<div class="product-name">'.$r['slogan'].'</div>
-																<div class="price-btn-block"> <span class="price">$'.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
+																<div class="price-btn-block"> <span class="price">&#x20B9;'.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
 															</div>
 															
 														</div>
@@ -233,7 +233,7 @@ session_start(); //start temp session until logout/browser closed
                                     <li><a href="#" class="selected" data-filter="*">all</a> </li>
 									<?php 
 									// display categories here
-									$res= mysqli_query($db,"select * from res_category LIMIT 6");
+									$res= mysqli_query($db,"select * from res_category LIMIT 4");
 									      while($row=mysqli_fetch_array($res))
 										  {
 											echo '<li><a href="#" data-filter=".'.$row['c_name'].'"> '.$row['c_name'].'</a> </li>';
@@ -269,7 +269,7 @@ session_start(); //start temp session until logout/browser closed
 																<div class="col-xs-12 col-sm-9 col-md-12 col-lg-9">
 																	<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
 																	<div class="bottom-part">
-																		<div class="cost"><i class="fa fa-check"></i> Min $ 10,00</div>
+																		<div class="cost"><i class="fa fa-check"></i> Min  &#x20B9 10,00</div>
 																		<div class="mins"><i class="fa fa-motorcycle"></i> 30 min</div>
 																		<div class="ratings"> <span>
 																				<i class="fa fa-star"></i>
@@ -310,7 +310,7 @@ session_start(); //start temp session until logout/browser closed
                                 <figure> <img src="images/app.png" alt="Right Image" class="img-fluid"> </figure>
                             </div>
                             <div class="col-xs-12 col-sm-7 left-text">
-                                <h3>The Best Food Delivery App</h3>
+                                <h3>The Best Food Delivery App<h5>coming soon</h5></h3>
                                 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App.</p>
                                 <div class="social-btns">
                                     <a href="#" class="app-btn apple-button clearfix">
@@ -334,14 +334,12 @@ session_start(); //start temp session until logout/browser closed
                 <!-- top footer statrs -->
                 <div class="row top-footer">
                     <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
+                        <a href="#"> <img src="images/icsc.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
                     <div class="col-xs-12 col-sm-2 about color-gray">
                         <h5>About Us</h5>
                         <ul>
-                            <li><a href="#">About us</a> </li>
-                            <li><a href="#">History</a> </li>
-                            <li><a href="#">Our Team</a> </li>
-                            <li><a href="#">We are hiring</a> </li>
+                            <li><a href="aboutus.php">Our Team</a> </li>
+                           
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">

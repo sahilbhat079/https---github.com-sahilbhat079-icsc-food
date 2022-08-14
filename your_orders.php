@@ -20,7 +20,7 @@ else
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Starter Template for Bootstrap</title>
+    <title>icsc food</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -166,7 +166,7 @@ only screen and (max-width: 760px),
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/icsc.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -288,7 +288,7 @@ only screen and (max-width: 760px),
 												<tr>	
 														 <td data-column="Item"> <?php echo $row['title']; ?></td>
 														  <td data-column="Quantity"> <?php echo $row['quantity']; ?></td>
-														  <td data-column="price">$<?php echo $row['price']; ?></td>
+														  <td data-column="price">&#8377;<?php echo $row['price']; ?></td>
 														   <td data-column="status"> 
 														   <?php 
 																			$status=$row['status'];
@@ -389,7 +389,7 @@ only screen and (max-width: 760px),
                     <!-- top footer statrs -->
                     <div class="row top-footer">
                         <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                            <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
+                            <a href="#"> <img src="images/icsc.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
                         <div class="col-xs-12 col-sm-2 about color-gray">
                             <h5>About Us</h5>
                             <ul>
@@ -422,17 +422,17 @@ only screen and (max-width: 760px),
                         <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                             <h5>Popular locations</h5>
                             <ul>
-                                <li><a href="#">Sarajevo</a> </li>
-                                <li><a href="#">Split</a> </li>
-                                <li><a href="#">Tuzla</a> </li>
-                                <li><a href="#">Sibenik</a> </li>
-                                <li><a href="#">Zagreb</a> </li>
-                                <li><a href="#">Brcko</a> </li>
-                                <li><a href="#">Beograd</a> </li>
-                                <li><a href="#">New York</a> </li>
-                                <li><a href="#">Gradacac</a> </li>
-                                <li><a href="#">Los Angeles</a> </li>
-                            </ul>
+                            <li><a href="#">rajbag</a> </li>
+                            <li><a href="#">khanyar</a> </li>
+                            <li><a href="#">dalgate</a> </li>
+                            <li><a href="#">nigeen</a> </li>
+                            <li><a href="#">parray pora</a> </li>
+                            <li><a href="#">hawal</a> </li>
+                            <li><a href="#">gojwara</a> </li>
+                            <li><a href="#">nowhata</a> </li>
+                            <li><a href="#">hazratbal</a> </li>
+                            <li><a href="#">lal chowk </a> </li>
+                        </ul>
                         </div>
                     </div>
                     <!-- top footer ends -->

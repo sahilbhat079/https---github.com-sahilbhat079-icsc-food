@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`adm_id`, `username`, `password`, `email`, `code`, `date`) VALUES
-(6, 'admin', '81dc9bdb52d04dc20036dbd8313ed055', 'admin@gmail.com', '', '2018-04-09 07:36:18'),
+(6, 'admin', '123456', 'admin@gmail.com', '', '2018-04-09 07:36:18'),
 (8, 'abc888', '6d0361d5777656072438f6e314a852bc', 'abc@gmail.com', 'QX5ZMN', '2018-04-13 18:12:30');
 
 -- --------------------------------------------------------
@@ -156,12 +156,12 @@ CREATE TABLE IF NOT EXISTS `restaurant` (
 --
 
 INSERT INTO `restaurant` (`rs_id`, `c_id`, `title`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `image`, `date`) VALUES
-(48, 5, 'amigoes', 'HariBurger@gmail.com', ' 090412 64676', 'HariBurger.com', '7am', '4pm', 'mon-tue', ' Palace,   natwar jalandhar', '5ad74ce37c383.jpg', '2018-04-18 13:49:23'),
-(49, 5, 'The Great Kabab Factory', 'kwbab@gmail.com', '011 2677 9070', 'kwbab.com', '6am', '5pm', 'mon-fri', 'Radisson Blu Plaza Hotel, Delhi Airport, NH-8, New Delhi, 110037', '5ad74de005016.jpg', '2018-04-18 13:53:36'),
-(50, 6, 'Aarkay Vaishno Dhaba', 'Vaishno@gmail.com', '090410 35147', 'Vaishno.com', '6am', '6pm', 'mon-sat', 'Bhargav Nagar, Jalandhar - Nakodar Rd, Jalandhar, Punjab 144003', '5ad74e5310ae4.jpg', '2018-04-18 13:55:31'),
-(51, 7, 'Martini', 'martin@gmail.com', '3454345654', 'martin.com', '8am', '4pm', 'mon-thu', '399 L Near Apple Showroom, Model Town,', '5ad74ebf1d103.jpg', '2018-04-18 13:57:19'),
-(52, 8, 'hudson', 'hud@gmail.com', '2345434567', 'hudson.com', '6am', '7pm', 'mon-fri', 'Opposite Lovely Sweets, Nakodar Road, Jalandhar, Punjab 144001', '5ad756f1429e3.jpg', '2018-04-18 14:32:17'),
-(53, 9, 'kriyana store', 'kari@gmail.com', '4512545784', 'kari.com', '7am', '7pm', 'mon-sat', 'near kalu gali hotel india what everrrr.', '5ad79e7d01c5a.jpg', '2018-04-18 19:37:33');
+(48, 5, 'amigoes', 'amigoes.com', ' 090412 64676', 'amigoes.com', '7am', '4pm', 'mon-tue', ' Palace,   hazratbal,srinagar', '5ad74ce37c383.jpg', '2018-04-18 13:49:23'),
+(49, 5, 'The Great Kabab Factory', 'kwbab@gmail.com', '011 2677 9070', 'kwbab.com', '6am', '5pm', 'mon-fri', 'lal chowk srinagar 190001', '5ad74de005016.jpg', '2018-04-18 13:53:36'),
+(50, 6, 'krishna dhabaa', 'krishna@gmail.com', '090410 35147', 'krishna.com', '6am', '6pm', 'mon-sat', 'sonwar, dalgate-road, srinagar ', '5ad74e5310ae4.jpg', '2018-04-18 13:55:31'),
+(51, 7, 'Martin', 'martin@gmail.com', '3454345654', 'martin.com', '8am', '4pm', 'mon-thu', 'lal chowk,srinagar', '5ad74ebf1d103.jpg', '2018-04-18 13:57:19'),
+(52, 8, 'bay leaf', 'bayleaf@gmail.com', '2345434567', 'bayleaf.com', '6am', '7pm', 'mon-fri', 'hazratbal,srinagar kashmir', '5ad756f1429e3.jpg', '2018-04-18 14:32:17'),
+(53, 9, 'laziz', 'laziz@gmail.com', '4512545784', 'laziz.com', '7am', '7pm', 'mon-sat', 'near gousia hospital khanyar', '5ad79e7d01c5a.jpg', '2018-04-18 19:37:33');
 
 -- --------------------------------------------------------
 
@@ -212,8 +212,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `password`, `address`, `status`, `date`) VALUES
-(31, 'navjot789', 'navjot', 'singh', 'ns949405@gmail.com', '9041240385', '6d0361d5777656072438f6e314a852bc', 'badri col phase 2', 1, '2018-04-18 10:05:03'),
-(32, 'navjot890', 'nav', 'singh', 'nds949405@gmail.com', '6232125458', '6d0361d5777656072438f6e314a852bc', 'badri col phase 1', 1, '2018-04-18 09:50:56');
+(1, 'sahil', 'sahil', 'bhat', 'sb@gmail.com', '9041240385', '123456', 'jogilanker', 1, '2018-04-18 10:05:03'),
+(2, 'navjot890', 'nav', 'singh', 'nds949405@gmail.com', '6232125458', '6d0361d5777656072438f6e314a852bc', 'badri col phase 1', 1, '2018-04-18 09:50:56');
 
 -- --------------------------------------------------------
 
